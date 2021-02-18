@@ -1,0 +1,126 @@
+body{
+    background-image: linear-gradient(to right top, #ee537f, #de70bf, #b392ec, #7bafff, #53c5fa, #35d2f1, #43dcdf, #6ae3c9, #80e8ad, #a4e98b, #d0e66b, #ffde55);
+    height: 100vh;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    /* padding-bottom: 300px; */
+    margin: 0;
+}
+
+h1{
+    font-size: 4.9rem;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #5f1656;
+    text-shadow: 2px 2px 3px #3b03352a;
+}
+
+h3{
+    font-size: 2rem;
+    color: #910e0900;
+    margin: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    margin: 40px 20px;  
+}
+
+.deviceimg,.userimg{
+    width: 100px;
+    height: 100px;
+}
+
+.di,.ui{
+    width: 70px;
+    height: 70px;
+}
+
+.a,.b,.optionimg{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.user,.userscore,.device,.devicescore{
+    font-family: 'Amatic SC', cursive;
+    color: #3b0335;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px #3b03352a;
+}
+
+a{
+    text-decoration: none;
+}
+
+.endbtn,.restartbtn{
+    width: 300px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 0;
+    font-family: 'Amatic SC', cursive;
+    color: #35d2f1;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 2px 5px 10px #3b033570;
+    background-image: linear-gradient(to left bottom, #5f1656, #671859, #6f1a5b, #781c5d, #801e5f, #801e5d, #7f1e5a, #7f1e58, #761b52, #6d194b, #651645, #5c143f);
+}
+
+.endbtn:hover,.restartbtn:hover{
+    box-shadow: 2px 5px 25px #3b033570;
+    font-size: 35px;
+}
+
+
+@media only screen and (max-width:500px){
+    body{
+        height: 100vh;
+    }
+    h1{
+        font-size: 4.2rem;
+        margin-bottom: 70px;
+    }
+
+    .img{
+        width: 120px;
+        height: 120px;
+        margin: 30px 5px 30px;
+    }
+    .user,.userscore,.device,.devicescore{
+        font-family: 'Amatic SC', cursive;
+        color: #3b0335;
+        font-size: 30px;
+        font-weight: 700;
+        text-shadow: 2px 2px 3px #3b03352a;
+    }
+    .deviceimg,.userimg{
+        width: 70px;
+        height: 70px;
+    }
+    .endbtn,.restartbtn{
+        width: 150px;
+        height: 60px;
+    }
+
+    .optionimg{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .scoreboard{
+        margin: 50px 0 0 0;
+    }
+
+    h3{
+        margin-top: 60px ;
+    }
+
+    .buttons{
+        margin-top: 30px;
+    }
+    
+} 
+
